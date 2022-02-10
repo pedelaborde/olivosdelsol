@@ -1,9 +1,10 @@
 html, body{
+    background-color: snow;
     color: #333333;
 }
 
 footer, .navbar{
-    background-color: snow;
+    background-color: lavender;
 }
 
 @media (min-width: 576px) { 
