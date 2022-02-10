@@ -4,7 +4,12 @@ html, body{
 
 footer{
     background-color: snow;
-    position: fixed; 
-    bottom:0%;
-    width:100%;
+}
+
+@media (min-width: 576px) { 
+    footer{
+        position: fixed; 
+        bottom:0%;
+        width:100%;
+    }
 }
