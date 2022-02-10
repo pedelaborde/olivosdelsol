@@ -1,9 +1,9 @@
 html, body{
-    background-color: whitesmoke;
+    background-color: snow;
 }
 
 footer, .navbar{
-    background-color: snow;
+    background-color: lavenderblush;
 }
 
 @media (min-width: 576px) { 
