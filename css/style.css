@@ -3,7 +3,7 @@ html, body{
 }
 
 footer, .navbar{
-    background-color: lavenderblush;
+    background-color: snow;
 }
 
 @media (min-width: 576px) { 
