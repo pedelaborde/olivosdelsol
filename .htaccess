@@ -1,1 +1,4 @@
-Redirect 301 / http://olivosdelsol.com.ar/
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^olivosdelsol.com.ar [OR]
+RewriteCond %{HTTP_HOST} ^www.olivosdelsol.com.ar [NC]
+RewriteRule ^(.*)$ http://www.olivosdelsol.com.ar/$1 [L,R=301]
