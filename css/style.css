@@ -1,16 +1,28 @@
 html, body{
     background-color: #f7f7f7;
     color: #333333;
+    scroll-behavior: smooth;
 }
 
-footer, .navbar{
-    background-color: #eeeeee;
+
+footer, .navbar, .btn-primary{
+    background-color: #4475a1;
+    border: none;
 }
 
-@media (min-width: 576px) { 
-    footer{
-        position: fixed; 
-        bottom:0%;
-        width:100%;
-    }
+footer a, .navbar a{
+    color: #f7f7f7;
+}
+
+.altura{
+    height: 70vh;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.agrando{
+    font-size: 1.7rem;
 }
