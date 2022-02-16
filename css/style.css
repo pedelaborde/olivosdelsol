@@ -4,9 +4,13 @@ html, body{
     scroll-behavior: smooth;
 }
 
-footer, .navbar, .btn-primary{
+footer, .navbar{
     background-color: #4475a1;
     border: none;
+}
+
+.bg{
+  background-image: url("bg.jpg");
 }
 
 footer a, .navbar a{
