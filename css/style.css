@@ -6,7 +6,6 @@ html, body{
 
 footer, .navbar{
     background-color: #4475a1;
-    border: none;
 }
 
 .bg{
@@ -43,10 +42,12 @@ span.anchor {
 }
 
 .verde{
-    background-color: #4eb661;
+    background-color: #4eb661 !important;
+    border: none;
 }
 
 .rojo{
     color: #f7f7f7;
-    background-color: #b64e66;
+    background-color: #b64e66 !important;
+    border: none;
 }
