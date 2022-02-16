@@ -27,4 +27,12 @@ footer a, .navbar a{
     bottom: auto;
 }
 
+p{
+    font-size: large;
+}
+
+.botoninline{
+    display: inline-block;
+    vertical-align: top;
+}
 
