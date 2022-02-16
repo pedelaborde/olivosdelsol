@@ -4,7 +4,6 @@ html, body{
     scroll-behavior: smooth;
 }
 
-
 footer, .navbar, .btn-primary{
     background-color: #4475a1;
     border: none;
@@ -14,8 +13,13 @@ footer a, .navbar a{
     color: #f7f7f7;
 }
 
-.altura{
-    height: 70vh;
+@media (min-width: 522px) { 
+	.altura{
+        height: 70vh;
+    }
+    .agrando{
+        font-size: 1.7rem;
+    }
 }
 
 .carousel-caption {
@@ -23,6 +27,4 @@ footer a, .navbar a{
     bottom: auto;
 }
 
-.agrando{
-    font-size: 1.7rem;
-}
+
