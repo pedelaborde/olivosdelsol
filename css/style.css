@@ -22,8 +22,10 @@ footer a, .navbar a{
 
 @media (min-width: 522px) { 
 	.altura{
-        height: 70vh;
+        height: 60vh;
     }
+}
+@media (min-width: 411px) { 
     .agrando{
         font-size: 1.7rem;
     }
