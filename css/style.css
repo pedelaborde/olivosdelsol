@@ -31,11 +31,6 @@ p{
     font-size: large;
 }
 
-.botoninline{
-    display: inline-block;
-    vertical-align: top;
-}
-
 span.anchor {
     display: block;
     position: relative;
@@ -43,6 +38,11 @@ span.anchor {
     visibility: hidden;
 }
 
-.violeta{
+.verde{
     background-color: #4eb661;
+}
+
+.rojo{
+    color: #f7f7f7;
+    background-color: #b64e66;
 }
