@@ -17,7 +17,7 @@ footer a, .navbar a{
 }
 
   a:hover, .enesa {
-    color: yellow !important;
+    color: #fcdb5e !important;
   }
 
 @media (min-width: 522px) { 
@@ -48,7 +48,7 @@ footer a, .navbar a{
   }
   
 
-p{
+p, #puntos li{
     font-size: large;
 }
 
