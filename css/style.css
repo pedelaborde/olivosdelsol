@@ -55,6 +55,9 @@ p, #puntos li{
 #puntos li{
     margin-bottom: 10px;
 }
+#puntos{
+    list-style: square;
+}
 
 span.anchor {
     display: block;
