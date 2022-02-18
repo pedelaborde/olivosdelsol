@@ -24,6 +24,10 @@ footer a, .navbar a{
 	.altura{
         height: 60vh;
     }
+    .w80{
+        width: 70%;
+        margin: auto;
+    }
 }
 @media (min-width: 411px) { 
     .agrando{
@@ -48,14 +52,14 @@ footer a, .navbar a{
   }
   
 
-p, #puntos li{
+p, .puntos li{
     font-size: large;
 }
 
-#puntos li{
+.puntos li{
     margin-bottom: 10px;
 }
-#puntos{
+.puntos{
     list-style: square;
 }
 
@@ -76,3 +80,4 @@ span.anchor {
     background-color: #b64e66 !important;
     border: none;
 }
+
