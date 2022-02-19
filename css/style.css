@@ -81,3 +81,20 @@ span.anchor {
     border: none;
 }
 
+.divider
+{
+	position: relative;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 15%;
+	right: 15%;
+	width: 70%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
